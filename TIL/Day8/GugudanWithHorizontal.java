@@ -8,7 +8,7 @@ public class GugudanWithHorizontal {
 	public static void main(String[] args) {
     
     int day;
-		int month;
+    int month;
 		//28일에서 끊음
 			for (day = 1; day < 29; day++) {
 				for (month = 1; month < 13; month++) {
