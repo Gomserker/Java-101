@@ -10,11 +10,11 @@ Car() {} // 기본 생성자 형태의 생성자 ①
 Car(String model) { //model을 매개변수로 받는 형태의 생성자 ②
   this.model = model;
  }
-Car(String model, String color) {
+Car(String model, String color) { //model과 color를 매개변수로 받는 형태의 생성자 ③
   this.model = model;
   this.color = color;
  }
-Car(String model, String color, int maxSpeed) {
+Car(String model, String color, int maxSpeed) { //model과 color, maxSpeed를 매개변수로 받는 형태의 생성자 ④
   this.model = model;
   this.color = color;
   this.maxSpeed = maxSpeed;
