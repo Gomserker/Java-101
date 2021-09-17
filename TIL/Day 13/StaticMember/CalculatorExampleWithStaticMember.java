@@ -3,7 +3,7 @@ package wiki;
 public class CalculatorExampleWithStaticMember {
 	public static void main(String[] args) {
 		
-		double result1 = 10 * 10 * CalculatorWithStaticMember.pi; //Á¤Àû ÇÊµåÀÎ pi¸¦ È£ÃâÇÑ °Í
+		double result1 = 10 * 10 * CalculatorWithStaticMember.pi; //ì •ì  í•„ë“œì¸ pië¥¼ í˜¸ì¶œí•œ ê²ƒ
 		int result2 = CalculatorWithStaticMember.plus(10, 5);
 		int result3 = CalculatorWithStaticMember.minus(10, 5);
 		
@@ -18,7 +18,7 @@ public class CalculatorExampleWithStaticMember {
 		double result4 = 10 * 10 * cal1.pi;
 		int result5 = cal1.plus(10, 5);
 		int result6 = cal1.minus(10, 5);
-		//ÀÌ·¸°Ô »ç¿ëÇÒ¼öµµ ÀÖÁö¸¸ À¢¸¸ÇÏ¸é ÂüÁ¶º¯¼ö°¡ ¾Æ´Ñ Å¬·¡½º¸íÀ» »ç¿ëÇØ È£ÃâÇÏµµ·Ï ÇÏÀÚ.
+		//ì´ë ‡ê²Œ ì‚¬ìš©í• ìˆ˜ë„ ìˆì§€ë§Œ ì›¬ë§Œí•˜ë©´ ì°¸ì¡°ë³€ìˆ˜ê°€ ì•„ë‹Œ í´ë˜ìŠ¤ëª…ì„ ì‚¬ìš©í•´ í˜¸ì¶œí•˜ë„ë¡ í•˜ì.
 		
 		System.out.printf("result4: %.3f\n", result4);
 		System.out.printf("result5: %d\n", result5);
