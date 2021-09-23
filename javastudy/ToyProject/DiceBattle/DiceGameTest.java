@@ -9,6 +9,7 @@ public class DiceGameTest {
 		Scanner input = new Scanner(System.in);
 		
 		int num;
+		String anykey;
 		
 //		System.out.println(d1.getPlayerDice());
 //		System.out.println(d1.getComputerDice());
@@ -16,10 +17,12 @@ public class DiceGameTest {
 		System.out.println("ゲームを始めますか?");
 		System.out.println("1. Yes // 2. No");
 		System.out.println("----------------------");
-		
 		num = input.nextInt();
 		
 		while (true) {
+			
+			System.out.println("Input any key to continue");
+			anykey = input.next();
 			if (num==2) {
 				System.out.println("ゲームを終了します。");
 				break;
