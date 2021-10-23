@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="javastudy"/>
+	<classpathentry excluding="Day 13/|Day15/|Day17/|Day19/|Day8/|Day 10/|Day 12/|Day 14/|Day10/|Day16/|Day18/|Day9/" kind="src" path="TIL"/>
+	<classpathentry kind="src" path="TIL/Day 10"/>
+	<classpathentry kind="src" path="TIL/Day 12"/>
+	<classpathentry kind="src" path="TIL/Day 13"/>
+	<classpathentry kind="src" path="TIL/Day 14"/>
+	<classpathentry kind="src" path="TIL/Day10"/>
+	<classpathentry kind="src" path="TIL/Day15"/>
+	<classpathentry kind="src" path="TIL/Day16"/>
+	<classpathentry kind="src" path="TIL/Day17"/>
+	<classpathentry kind="src" path="TIL/Day18"/>
+	<classpathentry kind="src" path="TIL/Day19"/>
+	<classpathentry kind="src" path="TIL/Day8"/>
+	<classpathentry kind="src" path="TIL/Day9"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
