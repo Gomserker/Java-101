@@ -13,9 +13,11 @@ java.lang.Object 클래스.
 예를 들어 Student라는 클래스를 생성한다고 했을때,
 class Student -> class Student extends Object.
 extends Object를 추가하지 않아도 컴파일러가 자동으로 추가한다.
+final 선언이 안된 메소드는 오버라이딩 해서 사용할 수 있다.
 
 3. toString() 메소드
-객체의 정보를 String으로 바꿔서 사용할때 쓰임
+객체의 정보를 String으로 바꿔서 사용할때 쓰임.
+final이 아니므로 오버라이딩 해서 사용가능.
 */
 class Book{
     private String title;
